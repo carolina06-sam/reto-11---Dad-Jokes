@@ -4,9 +4,9 @@ const jokeBtn = document.getElementById("jokeBtn");
 jokeBtn.addEventListener("click", generateJoke);
 
 generateJoke();
-
 // USING ASYNC/AWAIT
 async function generateJoke() {
+    // config of the icanhazdadjoke api
     const config = {
         headers: {
             Accept: "application/json",
